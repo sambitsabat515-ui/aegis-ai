@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+websockets
+mss
+pytesseract
+SpeechRecognition
+pyttsx3
+sounddevice
+soundfile
+numpy
+pynput

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegis AI Bodyguard</title>
+    <link rel="stylesheet" href="ui/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="main-container">
+        <div class="header">
+            <h1>shield_icon FRIDAY AI</h1>
+            <p>Your Voice-Activated Digital Bodyguard</p>
+        </div>
+
+        <div class="status-box" id="status-box">
+            <h2>System Risk Posture</h2>
+            <div id="risk-level">GREEN</div>
+            <p id="risk-desc">Monitoring systems are active. No threats detected.</p>
+        </div>
+
+        <div class="alerts">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #45a29e; padding-bottom: 0.5rem; margin-bottom: 1rem;">
+                <h3 style="border-bottom: none; padding-bottom: 0; margin: 0;">Recent Threat Activity</h3>
+                <button id="dismiss-btn" class="dismiss-btn" style="display: none;">Secure System (Dismiss
+                    Risks)</button>
+            </div>
+            <ul id="alert-list"></ul>
+        </div>
+
+        <div class="commands-box" id="commands-box">
+            <h3>Voice Commands Available</h3>
+            <p>Say <i>"Hey Friday"</i> followed by...</p>
+            <ul id="command-list">
+                <li>"scan screen"</li>
+                <li>"explain threats"</li>
+                <li>"block sender"</li>
+                <li>"open google"</li>
+                <li>"open youtube"</li>
+            </ul>
+        </div>
+    </div>
+    <script src="ui/app.js"></script>
+</body>
+
+</html>
